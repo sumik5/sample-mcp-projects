@@ -1,0 +1,10 @@
+[tools]
+python = "3.12.7"
+uv = "latest"
+
+[settings]
+experimental = true
+
+[env]
+_.python.venv = { path = ".venv", create = true, python = "3.12.7" }
+
